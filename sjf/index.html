@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SJF Scheduling Simulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>SJF Scheduling Simulation</h1>
+
+      <div>
+        <label for="numProcesses">Number of Processes:</label>
+        <input
+          type="number"
+          id="numProcesses"
+          min="1"
+          placeholder="Enter number of processes"
+        />
+        <div id="processInputContainer"></div>
+      </div>
+
+      <button id="startSimulation">Start Simulation</button>
+
+      <h2>Gantt Chart</h2>
+      <div id="ganttChart"></div>
+
+      <h2>Process Control Blocks</h2>
+      <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

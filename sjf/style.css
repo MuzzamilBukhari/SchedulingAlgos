@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #4a90e2;
+}
+
+label {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Process Input Container Styling */
+#processInputContainer {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 45%;
+  padding: 5px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Process Control Block Display */
+.process-block {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.process-block h3 {
+  color: #4a90e2;
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.process-block p {
+  margin: 5px 0;
+}
+
+/* Gantt Chart Styling */
+#ganttChart {
+  display: flex;
+  margin: 20px auto;
+  max-width: 600px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gantt-bar {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  background-color: #4a90e2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.gantt-bar:nth-child(odd) {
+  background-color: #50bfe6;
+}
+
+.gantt-bar:nth-child(even) {
+  background-color: #39a0ed;
+}
+
+.gantt-bar:hover {
+  transform: scale(1.1);
+}
+
+/* Center Alignment and Container Styling */
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
